@@ -56,7 +56,6 @@ public class ListUsersPage extends Container {
         table.setModel(model);
         parent.setSize((int)parent.getSize().getWidth(), (int)parent.getSize().getHeight()+1);
         parent.setSize((int)parent.getSize().getWidth(), (int)parent.getSize().getHeight());
-        repaint();
     }
 
 }
