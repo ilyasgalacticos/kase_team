@@ -42,6 +42,8 @@ public class ListUsersPage extends Container {
         backButton.setLocation(200,400);
         add(backButton);
 
+        String text = "Daniyar";
+
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
